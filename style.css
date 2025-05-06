@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagem/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+body * {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+#caixa {
+    width: 360px;
+    height: 712px;
+    margin: 56px auto 0px auto;
+    }
+
+#perfil {
+    text-align: center;
+    padding: 24px;
+}
+
+
+#perfil img {
+    width: 112px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 18px;    
+    margin-top: 8px;
+}
+
+/*Links*/
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+}
+
+ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.5s;
+}
+
+ul li a:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
